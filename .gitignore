@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Django
+*.log
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+
+# VS Code
+.vscode/
+
+# Ignore environment variable files
+*.env
+*.env.*
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# Ignore IDE files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore test result files
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Ignore other files
+*.swp
+*~
